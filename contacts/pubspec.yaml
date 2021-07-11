@@ -1,0 +1,50 @@
+name: contacts
+
+description: Modern looking Contacts app.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.0
+  provider: ^5.0.0
+  path_provider: ^2.0.1
+  hive: ^2.0.4
+  rive: ^0.7.17
+  line_icons: ^2.0.1
+  url_launcher: ^6.0.9
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  hive_generator: ^1.1.0
+  build_runner: ^2.0.3
+  flutter_launcher_icons: ^0.9.0
+
+flutter_icons:
+  android: launcher_icon
+  ios: true
+  remove_alpha_ios: true
+  image_path: assets/icons/icon.png
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
+    - assets/icons/avatars/
+    - assets/rive/loading.riv
+
+  fonts:
+    - family: Acme
+      fonts:
+        - asset: assets/fonts/Acme/Acme.ttf
+          weight: 400
