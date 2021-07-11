@@ -1,5 +1,5 @@
 # CONTACTS
-<strong>Modern looking contacts app for evryone</strong>
+<strong>Modern looking contacts app for everyone</strong>
 <table>  
   <tr>
     <td><img src="Screenshots/1.png"></td>
